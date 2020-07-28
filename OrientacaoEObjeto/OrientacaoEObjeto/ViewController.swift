@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         var animal2: Animal2 = Animal2(tamanho: "Pequeno", raca: "Basset", cor: "Marrom", qtdPatas: 4, genero: "Macho", especie: "Canino")
         
         
+        print("Jake Blue Eyed Wolves")
+        print(animal.raca)
+        
         
         
         
