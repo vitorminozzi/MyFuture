@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         var animal: Animal = Animal(tamanho: "Grande", raca: "Husky", cor: "Branco", qtdPatas: 4, genero: "Macho", especie: "Canino")
         
-        var animal2: Animal2 = Animal2(tamanho: "Pequeno", raca: "Basset", cor: "Marrom", qtdPatas: 4, genero: "Femea", especie: "Canino")
+        var animal2: Animal2 = Animal2(tamanho: "Pequeno", raca: "Basset", cor: "Marrom", qtdPatas: 4, genero: "Macho", especie: "Canino")
         
         
         
