@@ -10,12 +10,12 @@ import Foundation
 
 class Animal {
     
-    var tamanho: String?
-    var raca: String?
-    var cor: String?
-    var qtdPatas: Int?
-    var genero: String?
-    var especie: String?
+    var tamanho: String
+    var raca: String
+    var cor: String
+    var qtdPatas: Int
+    var genero: String
+    var especie: String
     
     init(tamanho: String, raca: String, cor: String, qtdPatas: Int, genero: String, especie: String  ){
         
@@ -31,14 +31,3 @@ class Animal {
 
 
 
-
-struct Animal2 {
-
-    
-    var tamanho: String?
-    var raca: String?
-    var cor: String?
-    var qtdPatas: Int?
-    var genero: String?
-    var especie: String?
-}

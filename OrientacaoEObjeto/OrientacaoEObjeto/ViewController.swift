@@ -10,22 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
     
-   
+    
+    var passaro:Passaro = Passaro(tamanho: "", raca: "", cor: "", qtdPatas: 0, genero: "", especie: "")
+    
+    
+    func apresentarPassaro(){
+        
+        print("Oi sou uma \(passaro.raca), minhas cores sao \(passaro.cor), tenho \(passaro.qtdPatas) patas")
+        
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         
-        var animal: Animal = Animal(tamanho: "Grande", raca: "Husky", cor: "Branco", qtdPatas: 4, genero: "Macho", especie: "Canino")
-        
-        var animal2: Animal2 = Animal2(tamanho: "Pequeno", raca: "Basset", cor: "Marrom", qtdPatas: 4, genero: "Macho", especie: "Canino")
+        self.apresentarPassaro()
         
         
-        print("Jake Blue Eyed Wolves")
-        print(animal.raca)
-        
-        
-        
-        
-        super.viewDidLoad()
+    super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
