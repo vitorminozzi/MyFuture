@@ -15,6 +15,7 @@
 		E70B15DC24CF9BC30079F065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70B15DA24CF9BC30079F065 /* LaunchScreen.storyboard */; };
 		E70B15E524CFA65F0079F065 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70B15E424CFA65F0079F065 /* Animals.swift */; };
 		E71CDD5924D24805008BF6A4 /* Passaro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CDD5824D24805008BF6A4 /* Passaro.swift */; };
+		E77D510C24D37683006F25C3 /* Cachorro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77D510B24D37683006F25C3 /* Cachorro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E70B15DD24CF9BC30079F065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E70B15E424CFA65F0079F065 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
 		E71CDD5824D24805008BF6A4 /* Passaro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passaro.swift; sourceTree = "<group>"; };
+		E77D510B24D37683006F25C3 /* Cachorro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cachorro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				E70B15E424CFA65F0079F065 /* Animals.swift */,
 				E71CDD5824D24805008BF6A4 /* Passaro.swift */,
+				E77D510B24D37683006F25C3 /* Cachorro.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77D510C24D37683006F25C3 /* Cachorro.swift in Sources */,
 				E71CDD5924D24805008BF6A4 /* Passaro.swift in Sources */,
 				E70B15D424CF9BC20079F065 /* ViewController.swift in Sources */,
 				E70B15E524CFA65F0079F065 /* Animals.swift in Sources */,
