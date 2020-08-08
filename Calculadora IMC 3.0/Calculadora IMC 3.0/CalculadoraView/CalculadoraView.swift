@@ -31,6 +31,10 @@ class CalculadoraView: UIView {
             self.alturaTextField.placeholder = "Altura"
             self.pesoTextField.placeholder = "Peso"
             self.backgroundColor = color
+            self.alturaTextField.delegate = self
+            self.pesoTextField.delegate = self
+        self.alturaTextField.becomeFirstResponder()
+        
         }
         
         
@@ -75,4 +79,45 @@ class CalculadoraView: UIView {
     }
 
 
+}
+
+
+extension CalculadoraView: UITextFieldDelegate {
+    
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        
+        
+        textField.backgroundColor = .red
+        
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        
+        
+        textField.backgroundColor = .white
+        
+        
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        if textField == alturaTextField {
+            
+    
+        textField.backgroundColor = .white
+            pesoTextField.becomeFirstResponder()}
+        
+        else{
+            pesoTextField.resignFirstResponder()
+            self.calcularIMC()
+            
+        }
+        
+        
+        return true
+        
+      
+    }
+    
 }
