@@ -62,7 +62,7 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var produtoTextField: UITextField!
-    @IBOutlet weak var cadastrarButton: UIButton!
+    @IBOutlet weak var cadastrarButton: UIButton!   
     
 }
 
